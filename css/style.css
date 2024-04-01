@@ -146,22 +146,21 @@ header nav i {
     line-height: 45px;
 }
 
-.menu1 .check-box {
-    height: 26px;
-    line-height: 26px;
+.menu1 input[type='checkbox'] {
+    display: none;
     margin-bottom: 25px;
 }
-
-.menu1 .check-box a {
-    font-size: 13px;
-    color: #212121;
-    margin-right: 15px;
-    
+.menu1 input[type='checkbox']+label {
+    padding-left: 35px;
+    background: url('../images/chk.png') no-repeat left center;
+    background-size: 25px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
 }
-.menu1 .check-box i {
-   font-size: 2rem;
-   color: gray;
-   
+.menu1 input[type='checkbox']:checked+label {
+    background: url('../images/chk_on.png') no-repeat left center;
+    background-size: 25px;
 }
 .menu1 .login-button {
     margin-bottom: 15px;
