@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    color: #000;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+html {
+    font-size: 13px;
+    background: #f8f8f8;
+}
+
+/* 스타일 초기화 S */
+body {
+    margin: 0 auto;
+    max-width: 720px;
+    min-width: 360px;
+    background: #ffffff;
+}
+ul,ol,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+/* 스타일 초기화 E */
+
+/* 공통 스타일 S */
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* 공통 스타일 E */
+
+/* 헤더 영역 S */
+header .site-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 15px;
+
+}
+
+header .logo img {
+    height: 34px;
+}
+
+header .site-top i {
+    font-size: 2rem;
+}
+
+header .site-top .left i {
+    margin-right: 10px;
+}
+
+header .site-top .right i {
+    margin-left: 10px;
+}
+
+header nav {
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+header nav a {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+    align-content: center;
+    
+}
+
+header nav i {
+    flex-grow: 1;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 10px;
+    align-content: center;
+}
+
+/* 헤더 영역 E */
+
+/* menu1 영역 S */
+
+.menu1 {
+    display: block;
+    background: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 30px 15px 40px;
+    
+    
+}
+
+.menu1 .login-txt {
+    margin-bottom: 19px;
+}
+
+.menu1 .login-txt a {
+    font-size: 17px;
+    color: #333333;
+    font-weight: 700;
+
+}
+.menu1 .login-id {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.menu1 .login-id a {
+    font-size: 13px;
+    color: gray;
+    line-height: 45px;
+}
+
+.menu1 .login-password {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.menu1 .login-password a {
+    font-size: 13px;
+    color: gray;
+    line-height: 45px;
+}
+
+.menu1 .check-box {
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.menu1 .check-box a {
+    font-size: 13px;
+    color: #212121;
+    margin-right: 15px;
+    
+}
+.menu1 .check-box i {
+   font-size: 2rem;
+   color: gray;
+   
+}
+.menu1 .login-button {
+    margin-bottom: 15px;
+}
+.menu1 .login-button a {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border: 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #8769f0;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+}
+.menu1 .login-info {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.menu1 .login-info a {
+    color: #212121;
+    font-size: 12px;
+    padding: 0 15px;
+    width: calc(100% / 3);
+}
+
+
+/* menu1 영역 E */
+
+/* menu2 영역 S */
+
+/* menu2 영역 E */
+
+/* menu3 영역 S */
+.menu3 {
+    background-color: #ffffff;
+    padding: 30px 15px 45px;
+}
+.menu3 .shopping-title {
+    margin-bottom: 8px;
+}
+.menu3 .shopping-title a {
+    font-size: 17px;
+    color: #333333;
+    font-weight: 700;
+}
+.menu3 .shopping-detail {
+    margin-bottom: 15px;
+}
+.menu3 .shopping-detail a {
+    color: #8b8b8b;
+    font-size: 13px;
+}
+.menu3 .shopping-name {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.menu3 .shopping-name a {
+    font-size: 13px;
+    color: gray;
+    line-height: 45px;
+}
+
+.menu3 .shopping-num {
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.menu3 .shopping-num a {
+    font-size: 13px;
+    color: gray;
+    line-height: 45px;
+}
+.menu3 .shopping-button a {
+    width: 100%;
+    display: block;
+    height: 45px;
+    border: 1px solid #8769f0;
+    color: #8769f0;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 45px;
+}
+/* menu3 영역 E */
+
+
+/* 하단 고정 메뉴 S */
+.bottom-quick-menu {
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    left: 0;
+    background: #ffffff;
+    border-top: 1px solid #dfe1e5;
+    width: 100%;
+    height: 60px;
+    padding: 9px 15px;
+
+}
+
+.bottom-quick-menu button {
+    width: 26px;
+    height: 30px;
+    font-size: 2rem;
+}
+
+.bottom-quick-menu .links {
+    display: flex;
+}
+
+.bottom-quick-menu .links a {
+    flex-grow: 1;
+    width: 0;
+}
+
+.bottom-quick-links {
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    z-index: 10;
+}
+
+.bottom-quick-links img {
+    display: block;
+    width: 50px;
+    margin: 10px;
+}
+
+
+/* 하단 고정 메뉴 E */
